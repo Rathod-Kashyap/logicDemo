@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TraineeDemo</string>
+     <string moduleConfig="true" name="CodePushDeploymentKey">IRCxcrDZNeyAxpXNo2g0Py6FWMEDu5TXHERHq</string>
+</resources>

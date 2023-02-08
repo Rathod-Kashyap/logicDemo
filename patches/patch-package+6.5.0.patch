@@ -1,0 +1,50 @@
+diff --git a/node_modules/patch-package/dist/getPackageResolution.js b/node_modules/patch-package/dist/getPackageResolution.js
+index daf48d9..6029f79 100644
+--- a/node_modules/patch-package/dist/getPackageResolution.js
++++ b/node_modules/patch-package/dist/getPackageResolution.js
+@@ -74,20 +74,32 @@ function getPackageResolution({ packageDetails, packageManager, appPath, }) {
+         return resolution;
+     }
+     else {
++        
+         const lockfile = require(path_1.join(appPath, packageManager === "npm-shrinkwrap"
+-            ? "npm-shrinkwrap.json"
+-            : "package-lock.json"));
+-        const lockFileStack = [lockfile];
+-        for (const name of packageDetails.packageNames.slice(0, -1)) {
+-            const child = lockFileStack[0].dependencies;
+-            if (child && name in child) {
+-                lockFileStack.push(child[name]);
+-            }
+-        }
+-        lockFileStack.reverse();
+-        const relevantStackEntry = lockFileStack.find((entry) => entry.dependencies && packageDetails.name in entry.dependencies);
+-        const pkg = relevantStackEntry.dependencies[packageDetails.name];
+-        return pkg.resolved || pkg.from || pkg.version;
++    ? "npm-shrinkwrap.json"
++    : "package-lock.json"));
++
++if (lockfile.lockfileVersion > 2) {
++    return Object.entries(lockfile.packages).find(el => el[0].includes(packageDetails.name))[1].resolved;
++}
++
++const lockFileStack = [lockfile];
++for (const name of packageDetails.packageNames.slice(0, -1)) {
++    const child = lockFileStack[0].dependencies;
++    if (child && name in child) {
++        lockFileStack.push(child[name]);
++    }
++}
++
++lockFileStack.reverse();
++
++const relevantStackEntry = lockFileStack.find((entry) => entry.dependencies && packageDetails.name in entry.dependencies);
++
++const pkg = relevantStackEntry.dependencies[packageDetails.name];
++return pkg.resolved || pkg.from || pkg.version;
++
++
++
+     }
+ }
+ exports.getPackageResolution = getPackageResolution;

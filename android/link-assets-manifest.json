@@ -1,0 +1,149 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/home.svg",
+      "sha1": "bf804410c4e2c2b82f547c60bf56f11a78acd9f5"
+    },
+    {
+      "path": "assets/fonts/library.svg",
+      "sha1": "bffd5f4746bb06656b00f10ccf30bc9ad9ebdf0e"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-Black.otf",
+      "sha1": "0096da58874ba09d147651d5b7a2aa10c7576c88"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-Black.ttf",
+      "sha1": "53e3ec8328255c487aa1acb7de2c2156f1ca3855"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-BlackItalic.otf",
+      "sha1": "f9761389d2fe97b7193edb144191ca9ea85cb614"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-BlackItalic.ttf",
+      "sha1": "35c90f4801e6f596bccbc24925568f880fac7ea8"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-Bold.otf",
+      "sha1": "5ac9d1722429350819edffbf369da58f3d1f3556"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-Bold.ttf",
+      "sha1": "f9f7e35df681279144ef0dcffffa88f2e157e85c"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-BoldItalic.otf",
+      "sha1": "956d912b91fdd5cbe85488e6dead8b86187f2a0c"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-BoldItalic.ttf",
+      "sha1": "2ac9bd5881779eee2cee7b92281785f55ed84584"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-ExtraBold.otf",
+      "sha1": "9c373af8751e5fdd15b09a7542f6ea440b43115a"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-ExtraBold.ttf",
+      "sha1": "2af2272741fb7a2973e5bf4166edf22c79ee0877"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-ExtraBoldItalic.otf",
+      "sha1": "e86f8628d43bcee2ea6317fcf552463104e312ab"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-ExtraBoldItalic.ttf",
+      "sha1": "cb378941b106795866f4e795fb96ef648a3bd76f"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-ExtraLight.otf",
+      "sha1": "626362a28cc4154ddf8c80fe1f7899f0d7be1980"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-ExtraLight.ttf",
+      "sha1": "4ecf8d41bbfd428a233649711fb06592d4b60f60"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-ExtraLightItalic.otf",
+      "sha1": "34f6364f56f75047a9e917573a20d854d78c442f"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-ExtraLightItalic.ttf",
+      "sha1": "f3c2c89ab7d1e077975f349c2f5e4ae6f576c31d"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-Light.otf",
+      "sha1": "00c7f315db74e57c2f4792403d3a8eefe07ca690"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-Light.ttf",
+      "sha1": "f14a1702f4b2b8ac280fed482d03986e60692d32"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-LightItalic.otf",
+      "sha1": "16d2d997bac68887d59027b3209914406fcc7bd0"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-LightItalic.ttf",
+      "sha1": "f88e6380562527fb16474bf5bc51cb0e4d4257ab"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-Regular.otf",
+      "sha1": "05f0849b8b9849735b13843432e70302577ac17e"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-Regular.ttf",
+      "sha1": "4e34f4d0685787e15a73d841411f1cd5e1bd4020"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-RegularItalic.otf",
+      "sha1": "e9ca531bd01325a9bf2a633657f289b863459934"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-RegularItalic.ttf",
+      "sha1": "84645275e11b83f1f8442778aadbec44fbb9e29c"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-SemiBold.otf",
+      "sha1": "ab579161432d6d22bef1db3088b4c1923fe04391"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-SemiBold.ttf",
+      "sha1": "b88540d80ea72a4e99dee2d567d4e60824475df4"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-SemiBoldItalic.otf",
+      "sha1": "ed17f61c0a1c48b28498c3b504e385ac56baf2c1"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-SemiBoldItalic.ttf",
+      "sha1": "9e70e67699da3a37bbac4f488c54528f12e82550"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-Thin.otf",
+      "sha1": "c63029fd38c9183d810f6be59508bd2a7ab187a4"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-Thin.ttf",
+      "sha1": "b7b089f790b07c03e49759db3a1de7ca5c72f3c0"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-ThinItalic.otf",
+      "sha1": "ed6c911551cdd0fc1a64694f453f04383c6abfc9"
+    },
+    {
+      "path": "assets/fonts/MontBlanc-Trial-ThinItalic.ttf",
+      "sha1": "5c70b06b5cc267614554bb8f10545fdb14616b21"
+    },
+    {
+      "path": "assets/fonts/pen.svg",
+      "sha1": "deac21de31e5e127bb8b1e4f4b67c87a0ed64070"
+    },
+    {
+      "path": "assets/fonts/user.svg",
+      "sha1": "4a47a1343739f9604f7c610298c47cdab0d60de7"
+    }
+  ]
+}
